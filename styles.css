@@ -164,12 +164,20 @@ body {
   }
 }
 
+.small-photo {
+  display: none;
+}
+
 @media screen and (max-width: 630px) {
-  .image-phone .img-fluid {
+  .original-photo {
+    display: none;
+  }
+
+  .small-photo {
     max-width: 100%;
-    height: auto;
-    scale: 3;
-    margin: 14rem 0;
+    height: 100%;
+    padding: 0;
+    display: inline-block;
   }
 
 }
