@@ -158,4 +158,8 @@ body {
   #third {
     background-image: none;
   }
+
+  .third-info {
+    padding-right: 0;
+  }
 }
