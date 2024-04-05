@@ -78,14 +78,10 @@ body {
 #third {
   border: 1px solid gray;
   border-radius: .4em;
-  margin-bottom: 2em;
-}
-
-#first,
-#second {
   margin: 0 1em;
   margin-bottom: 2em;
 }
+
 
 #first .first-head {
   font-family: "PT Sans Caption", sans-serif;
@@ -138,6 +134,28 @@ body {
   font-weight: 400;
   color: #01004D;
   opacity: 0.5;
+  padding-right: 6rem;
 }
 
-#invite-2 {}
+#third {
+  background-image: url(Images/Vector\ 97.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 25% 70%;
+}
+
+#third img {
+  display: none;
+}
+
+@media screen and (max-width: 1400px) {
+  #third {
+    background-position: 100%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  #third {
+    background-image: none;
+  }
+}
